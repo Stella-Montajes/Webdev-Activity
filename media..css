@@ -45,14 +45,55 @@
 
 
     .boxes {
-        width: 80%;
+        width: 98.5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .box img {
-        width: 100%;
+        width: 98.5%;
+        height: 300px;
+        flex-direction: column;
+        margin: 10px;
+
+    }
+ 
+    .box {
+        width: 98.5%;
+        height: 300px;
+        flex-direction: column;
+
     }
 
 
+}
+
+@media (max-width: 1120px) { 
+    .boxes {
+        display: block;
+        width: 98.5%%;
+        flex-direction: column;
+    }
+
+    .box img {
+        width: 98.5%;
+        height: 300px;
+        display: block;
+        flex-direction: column;
+        margin: 10px;
+
+    }
+ 
+    .box {
+        width:98.5%;
+        height: 300px;
+        display: block;
+        flex-direction: column;
+
+    }
+    
 }
  
 
